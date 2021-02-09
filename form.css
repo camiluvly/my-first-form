@@ -1,0 +1,59 @@
+@ font-face {
+}
+
+* {
+	color: #987B98;
+}
+
+body {
+	background-image: url("blue galaxy.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+h3 {
+	font-size: 31px;
+}
+
+#you {
+	font-size: 53px;
+}
+
+.fname {
+	font-size: 25px;
+	padding: 15px;
+}
+
+.lname {
+	font-size: 25px;
+	padding: 15px;
+}
+
+#gender {
+	font-size: 21px;
+}
+
+.female {
+	padding: 81px;
+	margin-left: -83px;
+	margin-right: 10px;
+}
+
+.male {
+	padding: 87px;
+	margin-left: -88px;
+	margin-right: 18px;
+}
+
+.other {
+	margin-left: 1px;
+	margin-right: 3px;
+}
+
+#submit {
+	color: black;
+}
+
+footer {
+	font-family: 'Hanalei', cursive;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+fieldset {
+	border: none;
+}
+</style>
+	<title>All About You</title>
+	<link rel="stylesheet" type="text/css" href="./form.css">
+</head>
+<body>
+	<header>
+		<h1 id="you">All About You</h1>
+	</header>
+	<h3>You Are...</h3>
+	<br>
+	<form>
+		<fieldset>
+			<label class="fname" for="fname">First Name:</label>
+			<br>
+			<input type="text" id="fname" name="fname">
+			<br>
+			<br>
+			<label class="lname" for="lname">Last Name:</label>
+			<br>
+			<input type="text" id="lname" name="lname">
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend id="gender">Gender?</legend>
+			<input type="radio" id="female" name="gender" value="female">
+			<label class="female" for="female"> Female</label>
+			<br>
+			<input type="radio" id="male" name="gender" value="male">
+			<label class= "male" for="male">Male</label>
+			<br>
+			<input type="radio" id="other" name="gender" value="other">
+			<label class="other" for="other">Other</label>
+			<input type="text" id="other" name="other" size="8.5">
+			<br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Did I Miss Anything Cool About You??</legend>
+			<textarea rows="5" cols ="35" name="description">insert cool stuff here !</textarea>
+		</fieldset>
+		<input id="submit" type="submit">
+	</form>
+	<br>
+	<footer>Made With Love</footer>
+</body>
+</html>
